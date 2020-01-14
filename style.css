@@ -18,37 +18,97 @@ h2 {
     text-align: center;
     width: 100%;
     color: white;
+    background-size: cover;
 }
-h1{
+header h1{
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
     font-size: 50px;
-    text-shadow: 4px 4px black;
-    padding-bottom: 30px;
+    text-shadow: 2px 6px 3px black;
+    padding-bottom: 50px;
 }
 h2{
     font-family: 'Satisfy', cursive;
-    font-size: 25px;
+    font-size: 30px;
     background-image: url('zen.svg');
-    background-position: 580px;
+   
     padding-left: 100px;
 }
 *{
     line-height: 1.0cm;
 }
-body{
-    font-family: 'Martel', serif;
+p{
+    font-family: 'IBM Plex Mono';
     font-size: 20px;
 }
-.intro{
-    margin-left: 100px;
-    margin-right: 100px;
+h3{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.main {
-    margin-left: 100px;
-    margin-right: 100px;
+.participation {
+    background-color: rgb(89, 155, 100);
+    background-image: url('bamboo.png');
+   
 }
-.participation{
-    background-color: teal;
+.participation h3{
+    padding-bottom: 0px;
+}
+.benefits{
+    background-color: rgb(89, 155, 100);
+    background-image: url('bamboo.png');
+}
+.benefits h3{
+    padding-bottom: 0px;
+}
+
+.participation h3{
+    padding-top: 0px;
+}
+[role=contentinfo]{
+    width: 100%;
+    
+    background-color: rgb(89, 155, 100);
+    text-align: center;
+    
+
 }
 
 /* media query */ 
+@media (min-width: 921px){
+    [role=banner]{
+        background-position: center;
+        background-size: 100%;
+        
+
+    }
+    [role=article]{
+        padding: 0 100px;
+    }
+    
+    h2{
+        background-position: 42%;
+    }
+    [role=contentinfo]{
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
+@media (min-width: 400px){
+    [role=banner]{
+        background-position: center;
+        background-size: 100%;
+        
+
+    }
+    [role=article]{
+        padding: 0 100px;
+    }
+    
+    h2{
+        background-position: 42%;
+    }
+}
+
