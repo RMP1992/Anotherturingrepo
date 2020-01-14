@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+h2 {
+    background-image: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+[role=banner]{
+    background-image: url('huntington.png');
+    height: 300px;
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-shadow: 4px 4px black;
+    padding-bottom: 30px;
+}
+h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    background-image: url('zen.svg');
+    background-position: 580px;
+    padding-left: 100px;
+}
+*{
+    line-height: 1.0cm;
+}
+body{
+    font-family: 'Martel', serif;
+    font-size: 20px;
+}
+.intro{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.participation{
+    background-color: teal;
+    ;
+    
+}
