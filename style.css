@@ -40,12 +40,15 @@ h2{
 }
 p{
     font-family: 'IBM Plex Mono';
-    font-size: 20px;
+    font-size: 15px;
+    padding: 0 100px;
 }
 h3{
     font-size: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .participation {
     background-color: rgb(89, 155, 100);
@@ -66,14 +69,7 @@ h3{
 .participation h3{
     padding-top: 0px;
 }
-[role=contentinfo]{
-    width: 100%;
-    
-    background-color: rgb(89, 155, 100);
-    text-align: center;
-    
-
-}
+ 
 
 /* media query */ 
 @media (min-width: 921px){
@@ -83,16 +79,37 @@ h3{
         
 
     }
-    [role=article]{
-        padding: 0 100px;
-    }
     
+    [role=contentinfo]{
+        background-color: rgb(89, 155, 100);
+        text-align: center;
+        background-size: cover;
+        height: 125px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(156, 158, 156);
+        padding-top: 50px;
+    }
+    [role=contentinfo] a{
+        color: white;
+        font-size: 35px;
+        font-family: 'Satisfy', cursive;
+        text-decoration: none;
+    }
     h2{
         background-position: 42%;
     }
-    [role=contentinfo]{
-        background-position: center;
-        background-size: 100%;
+    p{
+        padding: 0 100px;
+    }
+    h3{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    footer a{
+        align-content: center;
     }
 }
 
@@ -100,13 +117,7 @@ h3{
     [role=banner]{
         background-position: center;
         background-size: 100%;
-        
-
     }
-    [role=article]{
-        padding: 0 100px;
-    }
-    
     h2{
         background-position: 42%;
     }
