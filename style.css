@@ -32,6 +32,7 @@ h2{
     font-family: 'Satisfy', cursive;
     font-size: 30px;
     background-image: url('zen.svg');
+    background-position: 42%;
    
     padding-left: 100px;
 }
@@ -69,18 +70,85 @@ h3{
 .participation h3{
     padding-top: 0px;
 }
+[role=contentinfo]{
+    background-color: rgb(103, 163, 113);
+    text-align: center;
+    background-size: cover;
+    height: 175px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(156, 158, 156);
+    padding-top: 50px;
+}
+[role=contentinfo] a{
+    color: white;
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(17, 53, 38);
+    background-size: cover;
+    height: 50px;
+    padding-top: 8px;
+}
+footer a{
+    padding-right: 25px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+ .select{
+    display: none;
+    
+}
+.archives{
+    display: none;
+}
+.resources{
+    display: none;
+}
+
+[role = navigation] ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.design-selection [role = navigation] ul li{
+    width:50%;
+    background-color: #C0CAC3;
+    border-top: solid 1px #d9e3dc;
+    padding: 20px 77px 20px 77px;
+    text-align: center;
+    font-family: 'Libre baskerville', sans-serif;
+}
+.design-name{
+    font-family: "Julius Sans One", sans-serif;    
+    color: black;
+    text-decoration: none;
+}
+.designer-name{
+    font-family: 'Libre baskerville', sans-serif;
+    color: #616857;
+    text-decoration: none;
+}
  
 
 /* media query */ 
-@media (min-width: 921px){
-    [role=banner]{
+@media (min-width: 1000px){
+    /* [role=banner]{
         background-position: center;
         background-size: 100%;
         
 
-    }
+    } */
     
-    [role=contentinfo]{
+    /* [role=contentinfo]{
         background-color: rgb(103, 163, 113);
         text-align: center;
         background-size: cover;
@@ -95,20 +163,20 @@ h3{
         font-size: 35px;
         font-family: 'Satisfy', cursive;
         text-decoration: none;
-    }
-    h2{
+    } */
+    /* h2{
         background-position: 42%;
-    }
-    p{
+    } */
+    /* p{
         padding: 0 100px;
-    }
-    h3{
+    } */
+    /* h3{
         padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 100px;
         padding-right: 100px;
-    }
-    footer {
+    } */
+    /* footer {
         text-align: center;
         color: white;
         background-color: rgb(17, 53, 38);
@@ -118,23 +186,30 @@ h3{
         
 
     
-    }
-    footer a{
+    } */
+    /* footer a{
         padding-right: 25px;
         color: white;
         font-size: 30px;
         text-decoration: none;
     }
 
+
+    [role=navigation]{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
 }
 
-@media (min-width: 400px){
-    [role=banner]{
+@media (min-width: 500px){
+    /* [role=banner]{
         background-position: center;
         background-size: 100%;
     }
     h2{
         background-position: 42%;
-    }
+    } */
 }
 
