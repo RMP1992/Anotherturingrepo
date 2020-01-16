@@ -39,6 +39,18 @@ h2{
 *{
     line-height: 1.0cm;
 }
+.summary a{
+    display: inline;
+    position: relative;   
+    text-decoration: none;
+    color: #000000;
+
+}
+.summary a:hover{
+    background-color: gray;
+    
+    
+}
 p{
     font-family: 'IBM Plex Mono';
     font-size: 15px;
@@ -86,6 +98,10 @@ h3{
     font-family: 'Satisfy', cursive;
     text-decoration: none;
 }
+[role=contentinfo] a:hover{
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     color: white;
@@ -99,6 +115,9 @@ footer a{
     color: white;
     font-size: 30px;
     text-decoration: none;
+}
+footer a:hover{
+    color: gray;
 }
  .select{
     display: none;
@@ -119,13 +138,20 @@ footer a{
     list-style-type: none;
 }
 
-.design-selection [role = navigation] ul li{
+ [role = navigation] ul li{
     width:50%;
     background-color: #C0CAC3;
     border-top: solid 1px #d9e3dc;
     padding: 20px 77px 20px 77px;
     text-align: center;
     font-family: 'Libre baskerville', sans-serif;
+    
+}
+.next a{
+    text-decoration: none;
+}
+.viewall a{
+    text-decoration: none;
 }
 .design-name{
     font-family: "Julius Sans One", sans-serif;    
@@ -137,8 +163,36 @@ footer a{
     color: #616857;
     text-decoration: none;
 }
+[role = navigation] ul .next a{
+    color: #616857;
+}
+[role = navigation] ul .viewall a{
+    color: #616857;
+}
+.zen-resources{
+    background-image: url('bamboo.png');
+    background-color:  rgb(103, 163, 113);
+}
+.zen-resources ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    text-decoration: none;
 
- 
+    
+}
+.zen-resources ul li{
+    width: 50%;
+    text-align: center;
+    
+}
+ .zen-resources ul li a{
+    text-decoration: none;
+    color: rgb(17, 53, 38);
+ }
+ abbr{
+     text-decoration: none;
+ }
 
 /* media query */ 
 @media (min-width: 1000px){
